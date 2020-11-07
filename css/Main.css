@@ -1,0 +1,15 @@
+.jumbotron{
+	background-color: rgb(51, 168, 255);
+	color:white;
+}
+
+.btn{
+	background-color: rgb(249, 255, 51);
+}
+
+.footer{
+	padding: 10px 10px 0 10px;
+	background-color: yellow;
+	margin-bottom: 0px;
+
+}
