@@ -21,14 +21,21 @@ footer{
 }
 
 .card-hotel{
-	flex: 1 150px;
-	padding: 2px 5px 2px 5px;
+	flex: 1 200px;
 	margin-top: 12px;
 }
 
 .btn-reserva{
 	width: 100%;
+	border-radius: 0px;
 }
 .footer-address-icon{
 	padding-right: 3px; 
+}
+
+.banner{
+	width: 900px;
+	height: 208px;
+	border: 3px solid red;
+	background-image: url(image/playa.JPEG);
 }
