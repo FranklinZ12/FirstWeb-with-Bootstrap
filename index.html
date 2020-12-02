@@ -75,7 +75,7 @@
         <div class = "d-flex flex-wrap flex-wrap-reverse">
             <div class = "card card-hotel d-flex flex-column justify-content-between ml-2">
                 <div class="card-body">
-                    <h5 class="card-title"> Hotel Medellin</h5>
+                    <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Las primeras resevas cuentan con clases de bachata gratis"> Hotel Medellin</h5>
                     <h6 class="card-subtitle text-muted">Colombia</h6>
                     <img class="card-img-top" src="image/dancar.jpg" alt="Responsive">
                     <p class="card-text"> Hotel ubicaco en la via las palmas de Medellin con vista a toda la ciudad.</p>
@@ -200,6 +200,10 @@
     <script src = "node_modules/jquery/dist/jquery.min.js"></script>
     <script src = "node_modules/popper.js/dist/popper.min.js"></script>
     <script src = "node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script >
+        $(function(){
+            $("[data-toggle=´tooltip´]").tooltip();
+        });
+    </script>
   </body>
 </html>
