@@ -155,7 +155,7 @@
                     <h6 class="card-subtitle text-muted">Bolivia</h6>
                     <img class="card-img-top" src="image/paz.jpg" alt="Responsive image">
                     <p class="card-text"> Hotel ubicaco en pleno centro.</p>
-                    <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto">Contacto</button>
+                    <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#contacto" id="contantoBnt">Contacto</button>
                 </div>
                 <div>
                     <button type="button" class="btn btn-primary btn-reserva">Reserva <span class="oi oi-check"></span></button>
@@ -230,8 +230,24 @@
             $('[data-toggle="popover"]').popover()
             $('.carousel').carousel({
                 interval:2000
-            })
-        })
+            });
+            $('#contacto').on('show.bs.modal', function (e){
+                console.log('el modal se esta mostrando');
+                $('#contactoBnt').removeClass('btn-outline-success');
+                $('#contactoBnt').addClass('btn-primary');
+                $('#contactoBnt').prop('disabled', true);
+            });
+            $('#contacto').on('shown.bs.modal', function (e){
+                console.log('el modal se  mostro');
+            });
+             $('#contacto').on('hide.bs.modal', function (e){
+                console.log('el modal se esta cerrando');
+            });
+            $('#contacto').on('hidden.bs.modal', function (e){
+                console.log('el modal se cerro');
+                $('#contactoBnt').prop('disabled', false);
+            });
+        });
     </script>
   </body>
 </html>
