@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css dist/precios.css-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/CSS/bootstrap.min.CSS">
+    <link rel="stylesheet" href="css/Main.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <!-- endbuild-->
+
+    <title>Hoteles</title>
+</head>
+
+<body>
+    <nav class=" navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Hoteles</a>
+        <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarDropdown" aria-expanded="false" aria-labels="Toggle navigation">
+            <span class=" navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item "><a class="nav-link" href="./index.html">Inicio</a></li>
+                <li class="nav-item "><a class="nav-link" href="./about.html">Nosotros</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#">Precios</a></li>
+                <li class="nav-item"><a class="nav-link" href="./Contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <h1>Hoteles antioquía</h1>
+    </div>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class=" breadcrumb">
+                <li class="breadcrumb-item active"><a href="./index.html">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Precios</li>
+            </ol>
+        </nav>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="compara-tab" data-toggle="tab" href="#compara" role="tab"
+                    aria-controls="compara" aria-selected="true">Comparar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="tarjetas-tab" data-toggle="tab" href="#tarjetas" role="tab"
+                    aria-controls="tarjetas" aria-selected="false">Tarjetas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="comentarios-tab" data-toggle="tab" href="#comentarios" role="tab"
+                    aria-controls="comentarios" aria-selected="false">Comentarios</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabcontent">
+            <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <th>Calidad</th>
+                            <th>Medellin</th>
+                            <th>Guatape</th>
+                            <th>Buenos Aires</th>
+                            <th>La Paz</th>
+                            <th>Rio de Jainero</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="oi oi-star"></span></td>
+                                <td>$100</td>
+                                <td>$120</td>
+                                <td>$150</td>
+                                <td>$170</td>
+                                <td>$180</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                                <td>$200</td>
+                                <td>$220</td>
+                                <td>$250</td>
+                                <td>$270</td>
+                                <td>$280</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span
+                                        class="oi oi-star"></span></td>
+                                <td>$300</td>
+                                <td>$320</td>
+                                <td>$350</td>
+                                <td>$370</td>
+                                <td>$380</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span
+                                        class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                                <td>$400</td>
+                                <td>$420</td>
+                                <td>$450</td>
+                                <td>$470</td>
+                                <td>$480</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span
+                                        class="oi oi-star"></span><span class="oi oi-star"></span><span
+                                        class="oi oi-star"></span></td>
+                                <td>$500</td>
+                                <td>$520</td>
+                                <td>$550</td>
+                                <td>$570</td>
+                                <td>$580</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+                <div class="accordion" id="accordionTarjetas">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseDebitoCredito" aria-expanded="true"
+                                    aria-controls="collapseDebitoCredito">
+                                    Tarjeta Debito/Credito
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseDebitoCredito" class="collapse" aria-labelledby="headingOne"
+                            data-parent="#accordionTarjetas">
+                            <div class="card-body">
+                                Puedes reservar en 3 cuotas con interes del 2%.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseAhorro" aria-expanded="true" aria-controls="collapseAhorro">
+                                    Tarjeta Ahorro
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseAhorro" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionTarjetas">
+                            <div class="card-body">
+                                Puedes reservar en 6 cuotas sin interes.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseVIP" aria-expanded="true" aria-controls="collapseVIP">
+                                    Tarjeta VIP
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseVIP" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordionTarjetas">
+                            <div class="card-body">
+                                Puedes reservar en 6 cuotas sin interes.
+                                Al llegar, recibiras una canasta familiar.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">Comentarios
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="https://www.facebook.com" style="color: white">Facebook</a>
+                <a href="https://www.twitter.com" style="color: white">Twitter</a>
+                <a href="https://www.instagram.com" style="color: white">Instagram</a>
+                <a href="https://www.google.com" style="color: white">Google</a>
+            </div>
+            <div class="col-sm-4">
+                <address>
+                    <h3>Oficina central</h3>
+                    <p>Medellin 834, Colombia</p>
+                    <p>+5987775459</p>
+                    <p>contacto@HotAntioquia.com</p>
+                </address>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="https://www.facebook.com" style="color: white">Nosotros</a>
+                <a href="https://www.twitter.com" style="color: white">Precios</a>
+                <a href="https://www.instagram.com" style="color: white">Terminos y Condicione</a>
+                <a href="https://www.google.com" style="color: white">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <!-- build:js js/main.js-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <!-- endbuild-->
+</body>
+
+</html>
